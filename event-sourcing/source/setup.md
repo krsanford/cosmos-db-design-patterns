@@ -41,7 +41,7 @@ There is an option to enable the free tier. This is so that others can try this 
 
 **This link will work if this is a public repo.**
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsolliancenet%2Fcosmos-db-nosql-modeling%2Fmain%2Fevent_sourcing%2Fcode%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fkrsanford%2Fcosmos-db-design-patterns%2Fmain%2Fevent-sourcing%2Fsource%2F%2Fazuredeploy.json)
 
 **For the private repo**
 
