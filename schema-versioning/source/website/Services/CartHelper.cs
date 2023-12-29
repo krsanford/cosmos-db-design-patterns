@@ -11,7 +11,7 @@ public class CartHelper{
         Container container = cosmosHelper.GetContainer().Result;
         List<Cart> carts = new();
         using FeedIterator<Cart> feed = container.GetItemQueryIterator<Cart>(
-            queryText: "SELECT * FROM Carts"
+            queryText: "SELECT * FROM Carts WHERE Carts.SchemaVersion = 2"
         );
         while (feed.HasMoreResults)
         {
